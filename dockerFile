@@ -8,7 +8,7 @@ WORKDIR /usr/src
 COPY . .
 RUN cmake .
 RUN make
-RUN ls -lah http_examples
+
 
 FROM ubuntu:bionic
 WORKDIR /opt/app/web
