@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.0)
-
+set(Boost_USE_STATIC_LIBS   ON)
 project (Simple-Web-Server)
 
 option(USE_STANDALONE_ASIO "set ON to use standalone Asio instead of Boost.Asio" OFF)
